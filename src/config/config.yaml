@@ -1,0 +1,2 @@
+# Pipeline configuration for the ship_positions job.
+# All pipeline behaviour must be driven from here.
