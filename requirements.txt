@@ -1,4 +1,6 @@
 duckdb==1.4.4
 pyyaml>=6.0
 pandas>=2.0
+numpy>=1.24
+pytz>=2023.3
 pytest>=8.0
