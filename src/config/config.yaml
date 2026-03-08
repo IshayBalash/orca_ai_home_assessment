@@ -1,2 +1,14 @@
 # Pipeline configuration for the ship_positions job.
 # All pipeline behaviour must be driven from here.
+
+source:
+  db_path: data/raw/ship_positions.db
+  schema: raw
+  table: ship_positions
+
+target:
+  db_path: data/silver/ship_positions.db
+  schema: silver
+  table: ship_positions
+pipeline:
+  batch_size_seconds: 60
